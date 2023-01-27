@@ -147,3 +147,57 @@ nav {
     overflow-wrap: break-word;
     word-break: break-all;
 }
+
+.quote {
+    display: flex;
+    padding: 0 135px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    flex-direction: column;
+}
+
+.quote-text {
+    padding: 0 200px;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.quote-by {
+    align-self: flex-end;
+    font-weight: 800;
+    margin-top: 30px;
+    padding: 0 200px;
+}
+
+.bottom-cta {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 335px;
+}
+
+.inner-box {
+    width: 1185px;
+    border-radius: 10px;
+    padding: 0 40px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inner-box .button {
+    margin: auto;
+    border: 1px solid white;
+}
+
+footer {
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
